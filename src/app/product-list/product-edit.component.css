@@ -1,0 +1,17 @@
+.withDelete{
+    position: relative;
+}
+
+.deleteMark{
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top:5px;
+    transition: all .5s ease-in;
+  
+}
+
+.deleteMark:hover{
+    transform: scale(1.2);
+    cursor: pointer
+}

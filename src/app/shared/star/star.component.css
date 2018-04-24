@@ -1,0 +1,10 @@
+.crop{
+    overflow: hidden
+}
+.outer{
+    position: relative
+}
+
+.empty , .crop {
+    position: absolute;
+}
