@@ -26,7 +26,7 @@ import { ProductData } from './in-memory-data'
     FormsModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(
-      ProductData, { dataEncapsulation: false }
+      ProductData, { dataEncapsulation: false , delay:1000}
     ),
     ProductModule, 
     RouterModule.forRoot([

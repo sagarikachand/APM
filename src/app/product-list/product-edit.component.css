@@ -7,11 +7,13 @@
     position: absolute;
     right: 35px;
     top:5px;
-    transition: all .5s ease-in;
+    transition: all 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
   
 }
 
 .deleteMark:hover{
-    transform: scale(1.2);
-    cursor: pointer
+    color:red;
+    
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.215, 0.61, 0.355, 1)
 }
